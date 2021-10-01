@@ -397,7 +397,7 @@ public class LR1 {
 		}
 
 	public static void main(String[] args) {
-		if(args.length == 0 || args[0].length() < 3) {
+		if(args.length == 0) {
 			System.out.println("You must provide a valid expression as an argument");
 		}
 		String input = args[0];
